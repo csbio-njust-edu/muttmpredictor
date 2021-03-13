@@ -1,6 +1,6 @@
 # TMPredictor
 
-## 1. Datasets
+## (I) Datasets
 #### (1) The 546 mutations
 154 neutral missense mutations;
 392 disease-associated missense mutations.
@@ -9,7 +9,7 @@
 33564 neutral missense mutations;
 29020 disease-associated missense mutations.
 
-## Extracting feature matrix
+## (II) Extracting feature matrix
 ### 1. Position Specific Score Matrix (PSSM)
 We adopted the PSI-BLAST (Position-Specific Iterated Basic Local Alignment Search Tool) to generate PSSM information. For more detail information, please refer to: 
 Schaffer A A, Aravind L, Madden T L, et al. Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements [J]. Nucleic Acids Research, 2001, 29(14): 2994-3005.  
@@ -36,8 +36,12 @@ PROVEAN webserver: http://provean.jcvi.org
 ##### [7] fathmm: H. A. Shihab, J. Gough, D. N. Cooper, P. D. Stenson, G. L. Barker, K. J. Edwards, I. N. Day, and T. R. Gaunt, “Predicting the functional, molecular, and phenotypic consequences of amino acid substitutions using hidden Markov models,” Human Mutation. 34. 1. 57-65, 2013.
 ##### [8] PROVEAN: Y. Choi, and A. P. Chan, “PROVEAN web server: a tool to predict the functional effect of amino acid substitutions and indels,” Bioinformatics. 31. 16. 2745-2747, 2015.
 
-## Contact 
+## (III) Contact 
 If you are interested in our work, OR, if you have any suggestions/questions about our work, PLEASE contact with us. E-mail: gfang0616@njust.edu.cn
+
+
+
+
 
 
 
