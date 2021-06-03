@@ -9,12 +9,14 @@
 38564 neutral missense mutations;
 29020 disease-associated missense mutations.
 
+
 ## (Ⅱ) Workflow of mutTMPredictor
  
  ![图片](https://user-images.githubusercontent.com/80455733/120625176-04d1e300-c494-11eb-9697-715174dbfeb2.png)
 Figure 1. An overall workflow of the proposed MutTMPredictor.
 
 Figure 1 is the workflow of the new proposed mutation predictor, named MutTMPredictor.           As seen, Figure 1 comprises two parts: part (A) and (B). In Figure 1(A), we extracted four types of features for each mutation, including WAPSSM, Original features, Predictors’ output, and the prediction results of the above three features using XGBoost model. In Figure 1(B), we concatenated the extracted features for further MRMR selection. Then feed the sorted features into XGBoost model         for the binary mutation classification.More details could be found in section 2 and section 3.1~3.2 of the manuscript, as below. 
+
 
 ## (Ⅲ) Extracting feature matrix
 ### 1. Position Specific Score Matrix (PSSM)
@@ -44,6 +46,7 @@ PROVEAN webserver: http://provean.jcvi.org
 ##### [6] PolyPhen-2: I. Adzhubei, D. M. Jordan, and S. R. Sunyaev, “Predicting functional effect of human missense mutations using PolyPhen-2,” Current Protocols in Human Genetics. Chapter 7. Unit7 20, 2013.
 ##### [7] fathmm: H. A. Shihab, J. Gough, D. N. Cooper, P. D. Stenson, G. L. Barker, K. J. Edwards, I. N. Day, and T. R. Gaunt, “Predicting the functional, molecular, and phenotypic consequences of amino acid substitutions using hidden Markov models,” Human Mutation. 34. 1. 57-65, 2013.
 ##### [8] PROVEAN: Y. Choi, and A. P. Chan, “PROVEAN web server: a tool to predict the functional effect of amino acid substitutions and indels,” Bioinformatics. 31. 16. 2745-2747, 2015.
+
 
 ## (Ⅳ) Mutation Prediction
 ### (1) 546 mutations dataset
