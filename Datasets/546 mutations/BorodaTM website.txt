@@ -1,6 +1,0 @@
-
-BorodaTM website:
-https://www.iitm.ac.in/bioinfo/MutHTP/boroda.php
-
-Reference:
-P. Popov, I. Bizin, and M. Gromiha, ¡°Prediction of disease-associated mutations in the transmembrane regions of proteins with known 3D structure,¡± PloS One. 14. 7, 2019.
