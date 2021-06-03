@@ -1,14 +1,8 @@
 
 # coding: utf-8
 
-# In[ ]:
-
 
 # coding: utf-8
-
-# In[ ]:
-
-
 """
 cut_seq(Sequence,pos,PSA_length):
 Sequence:待截取的序列
