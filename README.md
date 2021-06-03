@@ -13,6 +13,7 @@
 ## (Ⅱ) Workflow of mutTMPredictor
  
  ![图片](https://user-images.githubusercontent.com/80455733/120625176-04d1e300-c494-11eb-9697-715174dbfeb2.png)
+
 Figure 1. An overall workflow of the proposed MutTMPredictor.
 
 Figure 1 is the workflow of the new proposed mutation predictor, named MutTMPredictor.           As seen, Figure 1 comprises two parts: part (A) and (B). In Figure 1(A), we extracted four types of features for each mutation, including WAPSSM, Original features, Predictors’ output, and the prediction results of the above three features using XGBoost model. In Figure 1(B), we concatenated the extracted features for further MRMR selection. Then feed the sorted features into XGBoost model         for the binary mutation classification.More details could be found in section 2 and section 3.1~3.2 of the manuscript, as below. 
