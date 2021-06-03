@@ -13,6 +13,7 @@
  
  ![图片](https://user-images.githubusercontent.com/80455733/120625176-04d1e300-c494-11eb-9697-715174dbfeb2.png)
 Figure 1. An overall workflow of the proposed MutTMPredictor.
+
 Figure 1 is the workflow of the new proposed mutation predictor, named MutTMPredictor.           As seen, Figure 1 comprises two parts: part (A) and (B). In Figure 1(A), we extracted four types of features for each mutation, including WAPSSM, Original features, Predictors’ output, and the prediction results of the above three features using XGBoost model. In Figure 1(B), we concatenated the extracted features for further MRMR selection. Then feed the sorted features into XGBoost model         for the binary mutation classification.More details could be found in section 2 and section 3.1~3.2 of the manuscript, as below. 
 
 ## (Ⅲ) Extracting feature matrix
@@ -46,15 +47,15 @@ PROVEAN webserver: http://provean.jcvi.org
 
 ## (Ⅳ) Mutation Prediction
 ### (1) 546 mutations dataset
-As for the 546 mutation dataset, we upload the EXCEL FILE which contains the detailed information for each mutation, as listed in "(2) Detailed information of 546 mutations and predictors' output", displayed in mutTMPredictor webserver (http://csbio.njust.edu.cn/bioinf/muttmpredictor). Besides, we also displayed the meaning of each row of the EXCEL FILE in "The rows of 546 mutations excel file" part of the webserver, as bellows:
- 
+As for the 546 mutation dataset, we upload the EXCEL FILE which contains the detailed information for each mutation, as listed in "(2) Detailed information of 546 mutations and predictors' output", displayed in mutTMPredictor webserver (http://csbio.njust.edu.cn/bioinf/muttmpredictor). Besides, we also displayed the meaning of each row of the EXCEL FILE in "The rows of 546 mutations excel file" part of the webserver.
+
 ### (1) 67584 mutations dataset
 ### Single mutation prediction
 Users provide the UINPROT_ACC/proteinName, mutant position, wild_type amino acid, and mutant amino acid information, and the result page will display matched prediction result, specifically including the “UNIPROT_ACC”, “ProteinNAME”, “ProteinLENGTH”, “wtAA”, “pos”, “mutAA”, “Variation”, “Environment_residues”, “Class”, “rsid”, “fathmm_Prediction”, “PolyPhen-2_prediction”, “PROVEAN_PREDICTION”, “SIFT_PREDICTION”, and “MutTMPredictor” items of the corresponding mutant. 
 
 ### Mutations in single protein
 Users provide the UINPROT_ACC/proteinName, and the result page will display the predicted resutls of multiple mutations in the input protein. Specifically the results include “UNIPROT_ACC”, “ProteinNAME”, “ProteinLENGTH”, “wtAA”, “pos”, “mutAA”, “Variation”, “Environment_residues”, “Class”, “rsid”, “fathmm_Prediction”, “PolyPhen-2_prediction”, “PROVEAN_PREDICTION”, “SIFT_PREDICTION”, and “MutTMPredictor” items of the protein mutations. 
-The details of single mutation prediction and mutations in single protein is listed as below.
+The details of single mutation prediction and mutations in single protein is listed in the muttmpredictor webserver(http://csbio.njust.edu.cn/bioinf/muttmpredictor).
  
    
 
